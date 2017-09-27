@@ -55,3 +55,9 @@ button {
 .selected {
 	background: #FFEC8E;
 }
+
+.footer {
+	position: fixed;
+	bottom: 5px;
+	right: 5px;
+}
