@@ -5,7 +5,7 @@ html, body {
 
 .wrapper {
 	margin: 20px auto;
-	width: 502px;
+	width: 656px;
 }
 
 button {
@@ -22,18 +22,18 @@ button {
 .pattern-container {
 	margin-top: 14px;
 	position: relative;
-	width: 502px;
-	height: 124px;
+	width: 656px;
+	height: 200px;
 }
 
 .box {
 	border: 1px solid black;
-	width: 48px;
-	height: 48px;
+	width: 70px;
+	height: 70px;
 	position: absolute;
-	line-height: 48px;
+	line-height: 70px;
 	text-align: center;
-	font-size: 42px;
+    font-size: 15px;
 }
 .box:hover {
 	cursor: default;

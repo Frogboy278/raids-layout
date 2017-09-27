@@ -9,18 +9,42 @@
 </head>
 <body>
 	<div class="wrapper">
+
+		<!-- Default rooms -->
 		<div class="options">
+			Defaults:
+			</br>
 			<button class="room-btn" value="#">Start</button>
 			<button class="room-btn" value="¤">End</button>
-			<button class="room-btn" value="">Clear</button>
-			<button class="reset-btn">Reset</button>
 		</div>
 		<div class="options">
-			<button class="room-btn" value="S">Scavengers</button>
-			<button class="room-btn" value="F">Farming</button>
-			<button class="room-btn" value="C">Combat</button>
-			<button class="room-btn" value="P">Puzzle</button>
+			<button class="room-btn" value="S">Scavs</button>
+			<button class="room-btn" value="F">Farm</button>
 		</div>
+
+		<!-- Combat rooms -->
+        <div class="options">Combat:</div>
+        <div class="options">
+			<button class="combat-room-btn" value="Tekton">Tekton</button>
+            <button class="combat-room-btn" value="Vasa">Vasa</button>
+            <button class="combat-room-btn" value="Guards">Guards</button>
+            <button class="combat-room-btn" value="Mages">Mages</button>
+            <button class="combat-room-btn" value="Shamans">Shamans</button>
+            <button class="combat-room-btn" value="Muta">Muta</button>
+            <button class="combat-room-btn" value="Vangs">Vangs</button>
+            <button class="combat-room-btn" value="Vesp">Vesp</button>
+		</div>
+
+		<!-- Puzzle rooms -->
+        <div class="options">Puzzle:</div>
+        <div class="options">
+			<button class="puzzle-room-btn" value="Ice">Ice</button>
+            <button class="puzzle-room-btn" value="Rope">Rope</button>
+            <button class="puzzle-room-btn" value="Thieve">Thieve</button>
+            <button class="puzzle-room-btn" value="Crabs">Crabs</button>
+		</div>
+
+		<!-- Patterns -->
 		<div class="pattern-container">
 			<div class="boxes">
 				<div class="box" data-box-id="0"></div>
@@ -44,8 +68,16 @@
 			</div>	
 		</div>
 		<div class="solutions">
-			Solutions: <span class="solutions-value">?</span>
+			Solutions: <span class="solutions-value">26</span>
 		</div>
+
+        </br>
+        </br>
+
+        <div class="solutions">
+            Combat rooms:
+            <div id="rotations"></div>
+        </div>
 	</div>
 </body>
 </html>
