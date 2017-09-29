@@ -18,8 +18,8 @@ var pattern2 = [];
 function initPatterns()
 {
     // Build doubly linked lists to represent each circular pattern.
-    var lastRoom;
-    var currentRoom;
+    var lastRoom = null;
+    var currentRoom = null;
     for (var i = 0; i < pattern1_names.length; i++) {
         currentRoom = {
             name: pattern1_names[i]
@@ -34,8 +34,8 @@ function initPatterns()
     pattern1[0].prev = pattern1[pattern1.length-1]
     pattern1[pattern1.length-1].next = pattern1[0]
 
-    var lastRoom;
-    var currentRoom;
+    var lastRoom = null;
+    var currentRoom = null;
     for (var i = 0; i < pattern2_names.length; i++) {
         currentRoom = {
             name: pattern2_names[i]
